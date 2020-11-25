@@ -1,5 +1,5 @@
 /* import fonts */
-@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&family=Montserrat&family=Open+Sans&family=Raleway:wght@900&family=Roboto&family=Source+Code+Pro:wght@700&family=Ubuntu:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Montserrat&family=Open+Sans&family=Raleway:wght@900&family=Roboto&family=Source+Code+Pro:wght@700&family=Ubuntu:wght@700&display=swap');
 
 
 
@@ -33,11 +33,11 @@ h1 {
 h2 {
     font-family: 'Montserrat', sans-serif;
     color: var(--theme-color-primary);
-    font-size: 1.7rem;
 }
 
 h3 {
     font-family: 'Comfortaa', cursive;
+    margin-bottom: 1rem;
 }
 
 p {
@@ -67,6 +67,7 @@ hr {
     border: 1px solid var(--theme-color-primary);
     background-color: var(--theme-color-primary);
     border-radius: 1rem;
+    margin: 0 1rem;
 }
 
 
@@ -74,8 +75,12 @@ hr {
 /* container */
 .container {
     padding: 1rem;
-    margin: 1rem 2rem;
+    margin: 1rem 1rem;
     border: thin solid var(--theme-color-primary);
+}
+
+.container hr {
+    margin: 0.5rem 0;
 }
 
 
@@ -86,7 +91,7 @@ button {
     font-size: 1.1rem;
     border-radius: 0.2rem;
     padding: 0.4rem 0.8rem;
-    margin: 0.5rem;
+    margin: 1rem 0;
 }
 
 .button-primary {
@@ -103,11 +108,60 @@ button {
 
 
 
+/*  */
+a {
+    text-decoration: none;
+}
+
+.link-active {
+    font-weight: 900;
+    border-bottom: 2px solid var(--bg-dark);
+}
+
+.link-main {
+    background-color: var(--theme-color-primary);
+    color: var(--bg-dark);
+}
+
+.link-alternate {
+    color: var(--theme-color-primary);
+}
+
+.link-button {
+    display: inline-block;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.1rem;
+    border-radius: 0.2rem;
+    padding: 0.4rem 0.8rem;
+    margin: 1rem 0;
+    background-color: var(--theme-color-primary);
+    border: thin solid var(--bg-dark);
+    color: var(--bg-dark);
+}
+
+.link-button-alternate {
+    display: inline-block;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.1rem;
+    border-radius: 0.2rem;
+    padding: 0.4rem 0.8rem;
+    margin: 1rem 0;
+    background-color: var(--bg-dark);
+    border: thin solid var(--theme-color-primary);
+    color: var(--theme-color-primary)
+}
+
+
+
 /* lists */
 ul {
     list-style: none;
     margin: 0 auto;
     padding: 0 0 0 0rem;
+}
+
+li {
+    margin-bottom: 0.5rem;
 }
 
 ol {
@@ -127,6 +181,7 @@ nav {
     color: var(--bg-dark);
     padding: 1rem;
     font-family: 'Comfortaa', cursive;
+    font-weight: 500;
 }
 
 nav h1 {
@@ -140,16 +195,20 @@ nav ul {
 }
 
 nav li {
-    margin: 0.5rem;
+    margin: 0.1rem;
+}
+
+nav a {
+    font-family: 'Open Sans', sans-serif;
+    text-decoration: none;
+    padding: 0 0.5rem;
 }
 
 
 
 /* section */
 section {
-    background-color: var(--bg-dark);
     padding: 1rem;
-    margin: 1rem 0;
 }
 
 .section-main {
@@ -164,7 +223,7 @@ section {
 
 /* hero */
 .hero-img {
-    width: 70%;
+    width: 90%;
     margin: auto;
     display: block;
 }
@@ -176,10 +235,11 @@ section {
 
 .hero-heading-description {
     text-align: center;
-    margin: 0 2rem;
+    margin: 0.5rem 2rem;
+    font-weight: 100;
 }
 
-.hero-heading-description span {
+span {
     color: var(--theme-color-primary);
     font-weight: 900;
 }
@@ -215,13 +275,12 @@ footer ul {
     
     .container {
         padding: 1rem;
-        margin: 2rem 15rem;
+        margin: 2rem 20rem;
     }
     
     nav li {
-        margin: 3rem;
+        margin: 2rem;
     }
-    
     
     /* hero */
     .hero-img {
