@@ -38,6 +38,7 @@ h2 {
 h3 {
     font-family: 'Comfortaa', cursive;
     margin-bottom: 1rem;
+    line-height: 150%;
 }
 
 p {
@@ -121,6 +122,7 @@ a {
 .link-main {
     background-color: var(--theme-color-primary);
     color: var(--bg-dark);
+    display: inline-block;
 }
 
 .link-alternate {
@@ -171,6 +173,7 @@ ol {
 
 .list-item-inline {
     display: inline;
+    margin: 0 1rem;
 }
 
 
@@ -191,11 +194,10 @@ nav h1 {
 
 nav ul {
     text-align: right;
-    margin-top: 1rem;
 }
 
 nav li {
-    margin: 0.1rem;
+    margin: 1rem;
 }
 
 nav a {
@@ -263,6 +265,8 @@ footer ul {
     display: flex;
     justify-content: space-around;
     font-family: 'Open Sans', sans-serif;
+    flex-wrap: wrap;
+    margin-top: 1rem;
 }
 
 
