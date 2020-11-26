@@ -47,7 +47,7 @@ p {
 
 small {
     font-family: 'Open Sans', sans-serif;
-    font-size: x-small;
+    font-size: small;
 }
 
 .text-nav {
@@ -295,6 +295,14 @@ footer ul {
     border-radius: 50%;
     width: 15rem
 }
+
+/* blog pics */
+.img-inside {
+    border: 1px solid white;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
 
 
 
