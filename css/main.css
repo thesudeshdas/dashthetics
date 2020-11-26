@@ -168,7 +168,11 @@ li {
 
 ol {
     margin: 0 auto;
-    padding: 0 0 0 2rem;
+    padding: 0;
+}
+
+ol h2 {
+    padding-left: 2rem;
 }
 
 .list-item-inline {
@@ -274,7 +278,7 @@ footer ul {
 @media only screen and (min-width: 768px) {
     section {
         padding: 1rem 4rem;
-        margin: 1.5rem 0;
+        margin: 0rem 0;
     }
     
     .container {
@@ -302,7 +306,7 @@ footer ul {
     
     /* footer */
     footer {
-        padding-bottom: 2rem;
+        padding-bottom: 1rem;
     }
 
     footer h2 {

@@ -1,0 +1,27 @@
+/* css for projects pahe only */
+
+
+.container-project-button {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.project-link {
+    margin: 0.5rem 0;
+    min-width: 40%;
+    width: 60%;
+    text-align: center;
+}
+
+
+/* 
+
+
+@media only screen and (min-width: 768px) {
+    .container-project-button {
+        display: flex;
+        justify-content: space-between;
+    }
+} */
