@@ -6,7 +6,7 @@
 :root {
     --bg-primary: #262626;
     --bg-dark: #171717;
-    --bg-dark-alternate: #404040;
+    --bg-dark-alternate: #262626;
 
     --text-color-primary: #ffffff;
     --theme-color-primary: #34D399;
@@ -47,6 +47,7 @@ p {
 
 small {
     font-family: 'Open Sans', sans-serif;
+    font-size: x-small;
 }
 
 .text-nav {
@@ -112,6 +113,7 @@ button {
 /*  */
 a {
     text-decoration: none;
+    color: var(--text-color-primary);
 }
 
 .link-active {
@@ -273,6 +275,49 @@ footer ul {
     margin-top: 1rem;
 }
 
+/* additional css */
+.container-button {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container-link {
+    margin: 0.5rem 0;
+    min-width: 40%;
+    width: 60%;
+    text-align: center;
+}
+
+/* profile-img */
+.profile-img {
+    border-radius: 50%;
+    width: 15rem
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* FOR DESKTOP */
 @media only screen and (min-width: 768px) {
@@ -300,8 +345,8 @@ footer ul {
     }
 
     .hero-heading-description {
-        margin: 0 5rem;
-        font-size: 1.5rem
+        margin: 0 15rem;
+        font-size: 1.5rem;
     }
     
     /* footer */
@@ -311,5 +356,11 @@ footer ul {
 
     footer h2 {
         margin: 0.5rem;
+    }
+    
+    .profile-img {
+        border-radius: 50%;
+        width: 15rem;
+        height: 15rem;
     }
 }
