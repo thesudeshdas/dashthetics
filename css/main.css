@@ -119,7 +119,7 @@ button {
 
 
 
-/*  */
+/* links */
 a {
     text-decoration: none;
     color: var(--text-color-primary);
@@ -397,6 +397,5 @@ footer ul {
         border-radius: 50%;
         width: 15rem;
         height: 15rem;
-    }
-    
+    } 
 }
